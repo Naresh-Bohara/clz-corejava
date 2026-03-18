@@ -4,7 +4,6 @@ public class DataTypesDocs {
 	
 	/*
 	 * -------------- Data Types -----------------
-
 	 * 	- proper data  representation.
 	 * 	- proper memory allocation.
 	 * 	- proper operation to be performed.
@@ -18,7 +17,7 @@ public class DataTypesDocs {
 	 * 	d. long ---- whole number
 	 * 	e. float ---- fractional/decimal
 	 * 	f. double --- fractional/decimal  // default
-	 * 	g. char - '@', '1', 't'
+	 * 	g. char - '@', '1', 't' '#'
 	 * 	h. boolean -  true / false
 	 * 
 	 * 2. Non-primitive data types:
@@ -41,15 +40,14 @@ public class DataTypesDocs {
 		// byte = 8 bits ---> 1 byte ---8 bits
 		// int = 32 bits ---> 4 bytes
 //		byte x =34;
-
 		
-		System.out.println("byte -size = " + Byte.SIZE + ", minValue: "+ 
-		Byte.MIN_VALUE + ", byte-maxValue: " + Byte.MAX_VALUE);
+		System.out.println("byte-size = " + Byte.SIZE + " byte-min value = "+
+		Byte.MIN_VALUE + " max-value = "+Byte.MAX_VALUE);
 		
-		System.out.println("Short -size = " + Short.SIZE + ", minValue: "+ 
-				Short.MIN_VALUE + ", Short-maxValue: " + Short.MAX_VALUE);
-		
-		System.out.println("int -size = " + Integer.SIZE + ", minValue: "+ 
-				Integer.MIN_VALUE + ", Integer-maxValue: " + Integer.MAX_VALUE);
+//		System.out.println("Short -size = " + Short.SIZE + ", minValue: "+ 
+//				Short.MIN_VALUE + ", Short-maxValue: " + Short.MAX_VALUE);
+//		
+//		System.out.println("int -size = " + Integer.SIZE + ", minValue: "+ 
+//				Integer.MIN_VALUE + ", Integer-maxValue: " + Integer.MAX_VALUE);
 	}
 }
