@@ -33,12 +33,12 @@ public class WrapperType {
 	
 	public static void main(String[] args) {
 		int x = 10;
-		Integer y = x; // auto-boxing
+//		Integer y = x; // auto-boxing
 		
 		System.out.println(Integer.toBinaryString(x));
 		
-		Integer z = 43;
-		int d = z; // auto- unboxing
+//		Integer z = 43;
+//		int d = z; // auto- unboxing
 		
 		
 		/*
