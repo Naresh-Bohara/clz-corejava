@@ -27,7 +27,7 @@ public class TypeCastingDocs {
 	 	
 	 // explict  type casting
 	 	double  height = 5.5;
-	 	int my_height = (int) (height);
+	 	int my_height = (int) height;
 	 	
 	 	System.out.println(my_age);
 	 	System.out.println(my_height);

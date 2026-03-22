@@ -15,17 +15,21 @@ public class OperatorsTest {
 		
 		int a = 10;
 		
-		int b = 3;
+		int b = 6;
+//		System.out.println(a + a++); // 21, 20 ---
+//		System.out.println(a); //11, 10
+//		
+//		System.out.println(--a + a++); // 18
+//		System.out.println(a);  //  10
 		
-//		System.out.println(a+b);
-		
-		System.out.println(a++);
-		
-		System.out.println(++a);
-		
-		System.out.println(a++ + ++a); 
-		
-		System.out.println(--b + b--);
+//		System.out.println(a++); //11
+//	
+//		System.out.println(++a); //12
+//
+//		System.out.println(a++ + a++); //25
+//		System.out.println(a);  //27? //14
+//		
+//		System.out.println(--b + b--);
 		
 				
 	}
