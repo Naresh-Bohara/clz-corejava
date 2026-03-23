@@ -11,6 +11,13 @@ public class TypeCastingDocs {
 	 *  		- java does automatically by itself.
 	 *  		- data don't loss during this...
 	 *  
+	 *  int a = 23;
+	 *  
+	 *  long b = a;
+	 *  
+	 *  long c = 34;
+	 *  int d = c;
+	 *  
 	 *  
 	 *  2. Explicit Type Casting (narrowing --- converting to smaller)
 	 *  		-  larger data types -> smaller data types.
@@ -26,12 +33,11 @@ public class TypeCastingDocs {
 	 	int my_age = age;
 	 	
 	 // explict  type casting
-	 	double  height = 5.5;
+	 	double  height = 5.6;
 	 	int my_height = (int) height;
 	 	
 	 	System.out.println(my_age);
 	 	System.out.println(my_height);
-	 	
 	 	
  	}
 }

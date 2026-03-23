@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	 * ----------------Ternary operator --------------
 	 * # Ternary operator is a shortcut of if-else statement
 	 * # It is used to make decisions in one line
-	 * # symbo: ? :
+	 * # symbol: ? :
 	 * # syntax:
 	 * 		condition ? value_if_true : value_if_false;
 	 */

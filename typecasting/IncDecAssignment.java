@@ -98,5 +98,19 @@ public static void main(String[] args) {
 		System.out.println(c);
 	 */
 	
+//	int x = 3;
+//	int res = x++ + ++x + x++ + ++x + x-- + --x + x++ + x-- + ++x; 
+//	System.out.println(res); //  49, 
+//	System.out.println(x);  //  6, 
+	
+	int x = 3;
+	int res = x-- + --x + x-- + ++x + x-- + --x + x-- + x++ + ++x; //
+	/*
+	 *        3(2)+1+1(0)+1+1(0)+ -1 + -1(-2) + -2(-1) + 0 = 
+	 */
+	System.out.println(res); //  2, 
+	x = res;
+	System.out.println(x+=res);  //  
+	
 }
 }
