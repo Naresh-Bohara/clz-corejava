@@ -106,11 +106,11 @@ public static void main(String[] args) {
 	int x = 3;
 	int res = x-- + --x + x-- + ++x + x-- + --x + x-- + x++ + ++x; //
 	/*
-	 *        3(2)+1+1(0)+1+1(0)+ -1 + -1(-2) + -2(-1) + 0 = 
+	 *        3(2)+1+1(0)+1+1(0)+ -1 + -1(-2) + -2(-1) + 0 = 3
 	 */
-	System.out.println(res); //  2, 
+	System.out.println(res); // 3, 
 	x = res;
-	System.out.println(x+=res);  //  
+	System.out.println(x+=res); 
 	
 }
 }
