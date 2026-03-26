@@ -18,6 +18,7 @@ public class IfElseTest {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your salary: ");
 		int salary = sc.nextInt();
+	
 		
 		if(salary<30000) {
 			salary = salary + 10000;
