@@ -4,7 +4,7 @@ public class TypeCastingDocs {
 	
 	/*
 	 *  ---------- Type Casting --------------
-	 *  -  converting of one primitive data type to  another primitive ddadta 			type	. 
+	 *  -  converting of one primitive data type to  another primitive data type. 
 	 *  1. Implicit type casting (widening --- converting to larger)
 	 *  		- small data types ->  larger data types
 	 *  		- byte -> short -> int ->  long -> float -> double
