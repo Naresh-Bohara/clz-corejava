@@ -11,7 +11,6 @@ public class Q8_TemperatureConverter {
  * ---------------------------------
  * 
  */
-	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter choice: ");
