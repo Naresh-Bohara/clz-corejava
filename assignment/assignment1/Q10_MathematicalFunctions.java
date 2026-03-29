@@ -8,6 +8,6 @@ public class Q10_MathematicalFunctions {
 			c. Trigonometric functions (sin, cos, tan)
 	 */
 public static void main(String[] args) {
-	
+	 
 }
 }
