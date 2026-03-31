@@ -8,6 +8,8 @@ public class Q10_MathematicalFunctions {
 			c. Trigonometric functions (sin, cos, tan)
 	 */
 public static void main(String[] args) {
-	 
+	 System.out.println(Math.pow(2, 3));
+	 System.out.println(Math.sqrt(25));
+	 System.out.println(Math.sin(30));
 }
 }
