@@ -28,6 +28,7 @@ public class Q20_Calc {
 		case '-' -> System.out.println("Subtraction of "+num1+ " and "+num2+" is: "+(num1-num2));
 		case '*' -> System.out.println("Addition of "+num1+ " and "+num2+" is: "+(num1*num2));
 		case '/' -> System.out.println("Addition of "+num1+ " and "+num2+" is: "+(num1/num2));
+		default -> System.out.println("Invalid operator.");
 		}
 		
 	}
