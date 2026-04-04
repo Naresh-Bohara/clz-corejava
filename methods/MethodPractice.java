@@ -65,7 +65,6 @@ public class MethodPractice {
 //		return a+b;
 //	}
 	
-	
 	static void div() {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter numerator: ");
@@ -74,6 +73,10 @@ public class MethodPractice {
 		int demo = sc.nextInt();
 		
 		System.out.println("Div is: "+ (nume/demo));
+	}
+	
+	static int perimeter(int l, int b) {
+		return 2*(l+b);
 	}
 
 	public static void main(String[] args) {
@@ -90,7 +93,15 @@ public class MethodPractice {
 		
 //		System.out.println(add(3,4));
 		
-		div();
+//		div();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter l");
+		int l = sc.nextInt();
+		
+		System.out.println("Enter b");
+		int b = sc.nextInt();
+		
+		System.out.println(perimeter(l,b));
 		
 	}
 	
