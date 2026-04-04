@@ -7,7 +7,7 @@ public class MethodDocs {
  * # line of block of code that perform specific task in the program is called method.
  * 
  * # syntax: 
- * 		return_type method_name(arg1, ar2, ... argn---paraameters){
+ * 		return_type method_name(arg1, ar2, ... argn---parameters){
  * 				// statements
  * 		}
  * 
