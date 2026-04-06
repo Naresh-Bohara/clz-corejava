@@ -16,9 +16,11 @@ public class ArrayAvg {
 //		for(int i: marks) {
 //			sum = sum+i;
 //		}
+		
 		for(int i=0; i<marks.length; i++) {
 			sum = sum+marks[i];
 		}
+		
 		int avg = sum/marks.length;
 		
 		System.out.println(Arrays.toString(marks));
