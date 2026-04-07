@@ -13,7 +13,6 @@ public class ArrraysWithScanner {
 			rolls[i] = sc.nextInt();
 		}
 		
-		
 //		System.out.println(Arrays.toString(rolls));
 		
 //		System.out.println("-----------------");
