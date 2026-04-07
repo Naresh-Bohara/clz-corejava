@@ -25,5 +25,7 @@ public class ArrayAvg {
 		
 		System.out.println(Arrays.toString(marks));
 		System.out.println("Avg marks: "+avg);
+		
+		sc.close();
 	}
 }

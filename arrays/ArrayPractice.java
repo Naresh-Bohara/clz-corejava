@@ -14,8 +14,9 @@ public class ArrayPractice {
 			System.out.println("Enter city "+(i+1)+": ");
 			cities[i] = sc.next();
 		}
-		
 		System.out.println(Arrays.toString(cities));
+		sc.close();
 	}
+	
 	
 }
