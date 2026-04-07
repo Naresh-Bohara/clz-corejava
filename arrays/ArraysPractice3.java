@@ -7,7 +7,6 @@ public class ArraysPractice3 {
 
     static double[] marks = new double[5];
     
-    
     static void inputMarks(Scanner sc) {
         for (int i = 0; i < marks.length; i++) {
             while (true) {
